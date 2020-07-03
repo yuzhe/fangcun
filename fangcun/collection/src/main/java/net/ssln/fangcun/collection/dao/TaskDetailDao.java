@@ -15,7 +15,7 @@ public interface TaskDetailDao {
   
 
     TaskDetail selectByPrimaryKey(String id);
-
+    TaskDetail selectByurl(String url);
     int updateByPrimaryKeySelective(TaskDetail record);
 
     int updateByPrimaryKey(TaskDetail record);

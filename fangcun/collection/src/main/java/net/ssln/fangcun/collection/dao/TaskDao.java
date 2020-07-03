@@ -9,5 +9,6 @@ public interface TaskDao {
     int deleteByPrimaryKey(String id);
     int insert(Task record);
     Task selectByPrimaryKey(String id);
+    Task selectByurl(String url);
     int updateByPrimaryKey(Task record);
 }

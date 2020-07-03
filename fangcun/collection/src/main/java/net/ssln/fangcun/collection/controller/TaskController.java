@@ -26,4 +26,12 @@ public class TaskController {
 	   taskService.add(t);
 		return "aaa";
     }  
+	@RequestMapping(value="/addtask")  
+    @ResponseBody  
+    String addTask(String urls) throws ParseException{  
+	   Task t=new Task();
+	   t.setId("asdasdasd");
+	   taskService.add(t);
+	   return "aaa";
+    }  
 }
