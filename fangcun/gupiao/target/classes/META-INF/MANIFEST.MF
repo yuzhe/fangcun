@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: gupiao
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: jgq
+Implementation-Vendor-Id: ssln.net
+Build-Jdk: 1.8.0_112
+Implementation-URL: http://projects.spring.io/spring-boot/fangcun/gupi
+ ao/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
